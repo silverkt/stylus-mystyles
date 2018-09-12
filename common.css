@@ -1,0 +1,9 @@
+[title~="hello"] {
+  color: #d800e3;
+  font-size: 1rem;
+}
+[test] {
+  width: 1rem;
+  height: 1rem;
+  background: #00afc3;
+}
