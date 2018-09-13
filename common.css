@@ -7,3 +7,8 @@
   height: 1rem;
   background: #00afc3;
 }
+[test]::after {
+  display: block;
+  clear: both;
+  content: "";
+}

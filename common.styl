@@ -1,4 +1,5 @@
-@import _variables
+@import "_variables"
+@import "mixins/_clearfix"    
 
 
 
@@ -10,5 +11,7 @@
 [test] {
     width: $font-size-base;
     height: $font-size-base;
-    background: $blue-100;    
+    background: $blue-100;
+    clearfix();    
 }
+
